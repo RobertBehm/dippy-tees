@@ -5,11 +5,11 @@ module.exports = ({ env }) => ({
       apiKey: env("SENDGRID_API_KEY"),
     },
     settings: {
-      defaultFrom: "jamstack.course@gmail.com",
-      defaultTo: "jamstack.course@gmail.com",
+      defaultFrom: "support@dippytees.com",
+      defaultTo: "support@dippytees.com",
     },
   },
-  /*upload: {
+  upload: {
     provider: "aws-s3",
     providerOptions: {
       accessKeyId: env("AWS_ACCESS_KEY_ID"),
@@ -19,5 +19,5 @@ module.exports = ({ env }) => ({
         Bucket: env("AWS_BUCKET_NAME"),
       },
     },
-  }, */
+  },
 });
