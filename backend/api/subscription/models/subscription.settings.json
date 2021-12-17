@@ -18,8 +18,8 @@
       "model": "variant"
     },
     "orders": {
-      "collection": "order",
-      "via": "subscription"
+      "via": "subscription",
+      "collection": "order"
     },
     "frequency": {
       "type": "enumeration",
