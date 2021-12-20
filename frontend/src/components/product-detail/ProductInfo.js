@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useContext } from "react"
-import axios from "axios"
-import CircularProgress from "@material-ui/core/CircularProgress"
+//import axios from "axios"
+//import CircularProgress from "@material-ui/core/CircularProgress"
 import Button from "@material-ui/core/Button"
 import Grid from "@material-ui/core/Grid"
 import Chip from "@material-ui/core/Chip"
@@ -115,6 +115,7 @@ export const getStockDisplay = (stock, variant) => {
       if (stock[variant].qty === 0) {
         return "Out of Stock"
       } else {
+        //
         return `${stock[variant].qty} Currently In Stock`
       }
   }
@@ -129,7 +130,6 @@ export default function ProductInfo({
   stock,
   rating,
   setEdit,
-  product,
 }) {
   const classes = useStyles()
   const { user, dispatchUser } = useContext(UserContext)

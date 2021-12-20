@@ -1,7 +1,6 @@
 import { createTheme } from "@material-ui/core/styles"
 
 const lightGrey = "#efefef"
-const darkGreen = "#708670"
 const tan = "#FECEA8"
 const lightRed = "#FF847C"
 const red = "#E84A5F"
@@ -30,7 +29,7 @@ const theme = createTheme({
       fontFamily: "Philosopher",
       fontStyle: "italic",
       fontWeight: 700,
-      color: green,
+      color: black,
     },
     h2: {
       fontFamily: "Montserrat",
@@ -42,7 +41,7 @@ const theme = createTheme({
       fontFamily: "Montserrat",
       fontSize: "2rem",
       fontWeight: 300,
-      color: green,
+      color: black,
     },
     h4: {
       fontFamily: "Philosopher",
@@ -72,7 +71,7 @@ const theme = createTheme({
   overrides: {
     MuiChip: {
       root: {
-        backgroundColor: darkGreen,
+        backgroundColor: offBlack,
       },
       label: {
         fontFamily: "Montserrat",
