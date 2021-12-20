@@ -15,7 +15,7 @@ const useStyles = makeStyles(theme => ({
     padding: "2rem",
   },
   link: {
-    color: "#fff",
+    color: "#222222",
     fontSize: "1.25rem",
   },
   linkColumn: {
