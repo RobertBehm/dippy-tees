@@ -71,9 +71,8 @@ export default function CallToAction() {
               align={matchesMD ? "center" : undefined}
               variant="body1"
             >
-              At VAR X our mission is to provide comfortable, durable, premium,
-              designer clothing and clothing accessories to developers and
-              technology enthusiasts.
+              At Dippy our mission is to provide comfortable, durable, premium
+              clothing.
             </Typography>
           </Grid>
           <Grid

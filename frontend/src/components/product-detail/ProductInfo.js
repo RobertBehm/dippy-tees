@@ -1,6 +1,4 @@
 import React, { useState, useEffect, useContext } from "react"
-//import axios from "axios"
-//import CircularProgress from "@material-ui/core/CircularProgress"
 import Button from "@material-ui/core/Button"
 import Grid from "@material-ui/core/Grid"
 import Chip from "@material-ui/core/Chip"
@@ -132,7 +130,7 @@ export default function ProductInfo({
   setEdit,
 }) {
   const classes = useStyles()
-  const { user, dispatchUser } = useContext(UserContext)
+  const { user } = useContext(UserContext)
   const { dispatchFeedback } = useContext(FeedbackContext)
   const [selectedSize, setSelectedSize] = useState(
     variants[selectedVariant].size
@@ -258,7 +256,7 @@ export default function ProductInfo({
                     variant="body2"
                     classes={{ root: classes.reviewButton }}
                   >
-                    Leave A Review >
+                    Leave A Review
                   </Typography>
                 </Button>
               </Grid>
