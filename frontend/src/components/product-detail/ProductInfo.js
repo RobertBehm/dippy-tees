@@ -109,17 +109,14 @@ export const getStockDisplay = (stock, variant) => {
     case undefined:
     case null:
       return "Loading Inventory..."
-      break
     case -1:
       return "Error Loading Inventory"
-      break
     default:
       if (stock[variant].qty === 0) {
         return "Out of Stock"
       } else {
         return `${stock[variant].qty} Currently In Stock`
       }
-      break
   }
 }
 
