@@ -45,15 +45,19 @@ export default function Footer() {
   const classes = useStyles()
 
   const socialMedia = [
-    { icon: facebook, alt: "facebook", link: "https://facebook.com" },
-    { icon: twitter, alt: "twitter", link: "https://twitter.com" },
-    { icon: instagram, alt: "instagram", link: "https://instagram.com" },
+    { icon: facebook, alt: "facebook", link: "https://facebook.com/dippytees" },
+    { icon: twitter, alt: "twitter", link: "https://twitter.com/dippytees" },
+    {
+      icon: instagram,
+      alt: "instagram",
+      link: "https://instagram.com/dippytees",
+    },
   ]
 
   const routes = {
     "Contact Us": [
       { label: "(555) 555-5555", href: "tel:(555) 555-5555" },
-      { label: "zachary@var-x.com", href: "mailto:zachary@var-x.com" },
+      { label: "support@dippytees.com", href: "mailto:support@dippytees.com" },
     ],
     "Customer Service": [
       { label: "Contact Us", link: "/contact" },

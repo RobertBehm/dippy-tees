@@ -30,7 +30,7 @@ module.exports = {
       resolve: `gatsby-plugin-robots-txt`,
       options: {
         host: "https://dippytees.com",
-        sitemap: "https://dippytees.com",
+        sitemap: "https://dippytees.com/sitemap.xml",
         policy: [{ userAgent: "*", allow: "/" }],
       },
     },
