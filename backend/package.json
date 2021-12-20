@@ -2,7 +2,7 @@
   "name": "backend",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "The Strapi backend for Dippy, a clothing e-commerce store",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -26,7 +26,7 @@
     "stripe": "^8.135.0"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Robert Behm"
   },
   "strapi": {
     "uuid": "b66a5111-f280-4a19-a079-bd30f4aa7119"

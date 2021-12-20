@@ -7,14 +7,14 @@ import IconButton from "@material-ui/core/IconButton"
 import Tabs from "@material-ui/core/Tabs"
 import Tab from "@material-ui/core/Tab"
 import useMediaQuery from "@material-ui/core/useMediaQuery"
-import Hidden from "@material-ui/core/Hidden"
+//import Hidden from "@material-ui/core/Hidden"
 import SwipeableDrawer from "@material-ui/core/SwipeableDrawer"
 import Badge from "@material-ui/core/Badge"
 import List from "@material-ui/core/List"
 import ListItem from "@material-ui/core/ListItem"
 import ListItemText from "@material-ui/core/ListItemText"
 import { makeStyles } from "@material-ui/core/styles"
-import { Link, navigate } from "gatsby"
+import { Link } from "gatsby"
 
 import { CartContext } from "../../contexts"
 import { useIsClient } from "../../hooks"
@@ -182,7 +182,7 @@ export default function Header({ categories }) {
           classes={{ root: classes.logoContainer }}
         >
           <Typography variant="h1" classes={{ root: classes.logo }}>
-            <span className={classes.logoText}>VAR</span> X
+            <span className={classes.logoText}>DIPPY</span>
           </Typography>
         </Button>
         {matchesMD ? drawer : tabs}

@@ -148,9 +148,10 @@ const useStyles = makeStyles(theme => ({
     },
   },
   "@global": {
-    ".MuiInput-underline:before, .MuiInput-underline:hover:not(.Mui-disabled):before": {
-      borderBottom: "2px solid #fff",
-    },
+    ".MuiInput-underline:before, .MuiInput-underline:hover:not(.Mui-disabled):before":
+      {
+        borderBottom: "2px solid #fff",
+      },
     ".MuiInput-underline:after": {
       borderBottom: `2px solid ${theme.palette.secondary.main}`,
     },
@@ -283,7 +284,7 @@ const ContactPage = () => {
     <Layout>
       <SEO
         title="Contact Us"
-        description="Send us a message and learn more about the high quality clothing standards at VAR-X."
+        description="Send us a message and learn more about the high quality clothing standards at Dippy."
       />
       <Grid
         container

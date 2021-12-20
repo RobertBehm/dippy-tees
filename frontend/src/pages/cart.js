@@ -34,7 +34,7 @@ export default function Cart() {
     <Layout>
       <SEO
         title="Cart"
-        description="Make one-time purchases or buy a subscription for any of the amazing products at VAR-X."
+        description="Make one-time purchases or buy a subscription for any of the amazing products at Dippy."
       />
       <Grid
         container
