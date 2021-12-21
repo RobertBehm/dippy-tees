@@ -118,7 +118,7 @@ export default function DescriptionContainer({
               }),
             }}
           >
-            <ListIcon color={layout === "list" ? "#fff" : undefined} />
+            <ListIcon color={layout === "list" ? "#222222" : undefined} />
           </Button>
           <Button
             onClick={() => changeLayout("grid")}
@@ -128,7 +128,7 @@ export default function DescriptionContainer({
               }),
             }}
           >
-            <GridIcon color={layout === "grid" ? "#fff" : undefined} />
+            <GridIcon color={layout === "grid" ? "#222222" : undefined} />
           </Button>
         </ButtonGroup>
       </Grid>

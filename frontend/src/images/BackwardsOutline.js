@@ -3,7 +3,7 @@ import React from "react"
 function Icon({ color }) {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 68.645 68.645">
-      <g fill="none" stroke={color || "#708670"} strokeWidth="6">
+      <g fill="none" stroke={color || "#222222"} strokeWidth="6">
         <path
           strokeLinecap="round"
           strokeLinejoin="round"

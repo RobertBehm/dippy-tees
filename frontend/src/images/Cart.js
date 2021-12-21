@@ -5,7 +5,7 @@ function Icon({ color }) {
     <svg xmlns="http://www.w3.org/2000/svg" width="43.241" height="37.831">
       <g
         fill="none"
-        stroke={color || "#708670"}
+        stroke={color || "#222222"}
         strokeLinecap="round"
         strokeLinejoin="round"
         strokeWidth="3"

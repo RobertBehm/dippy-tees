@@ -8,7 +8,7 @@ function Icon({ color }) {
           width="160"
           height="148"
           fill="none"
-          stroke={color || "#fff"}
+          stroke={color || "#222222"}
           strokeLinejoin="round"
           strokeWidth="12"
           rx="24"

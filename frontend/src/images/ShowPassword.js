@@ -6,7 +6,7 @@ function Icon({ color }) {
       <g opacity="0.501" transform="translate(-1066.226 -667.25)">
         <path
           fill="none"
-          stroke={color || "#708670"}
+          stroke={color || "#222222"}
           strokeLinecap="round"
           strokeLinejoin="round"
           strokeWidth="1.5"
