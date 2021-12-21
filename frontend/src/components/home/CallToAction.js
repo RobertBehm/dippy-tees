@@ -22,6 +22,9 @@ const useStyles = makeStyles(theme => ({
       padding: "0",
     },
   },
+  contact: {
+    color: "fff",
+  },
   container: {
     marginBottom: "15rem",
   },
@@ -86,7 +89,8 @@ export default function CallToAction() {
                 component={Link}
                 to="/contact"
                 variant="outlined"
-                color="primary"
+                color="secondary"
+                classes={{ root: classes.contact }}
               >
                 Contact Us
               </Button>
@@ -94,7 +98,7 @@ export default function CallToAction() {
             <Grid item>
               <Button
                 variant="contained"
-                color="primary"
+                color="secondary"
                 component={Link}
                 to="/account"
                 classes={{ root: classes.account }}

@@ -35,7 +35,7 @@ const theme = createTheme({
       fontFamily: "Montserrat",
       fontSize: "3rem",
       fontWeight: 500,
-      color: "#222222",
+      color: black,
     },
     h3: {
       fontFamily: "Montserrat",
@@ -48,14 +48,14 @@ const theme = createTheme({
       fontStyle: "italic",
       fontWeight: 700,
       fontSize: "3rem",
-      color: "#222222",
+      color: black,
     },
     h5: {
       fontFamily: "Philosopher",
       fontSize: "2rem",
       fontWeight: 700,
       fontStyle: "italic",
-      color: "#222222",
+      color: black,
     },
     body1: {
       fontFamily: "Montserrat",
@@ -65,7 +65,7 @@ const theme = createTheme({
     body2: {
       fontFamily: "Montserrat",
       fontSize: "1.5rem",
-      color: "#222222",
+      color: black,
     },
   },
   overrides: {
@@ -76,7 +76,7 @@ const theme = createTheme({
       label: {
         fontFamily: "Montserrat",
         fontSize: "1.5rem",
-        color: "#222222",
+        color: black,
         fontWeight: 400,
       },
     },

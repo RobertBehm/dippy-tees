@@ -61,7 +61,7 @@ const useStyles = makeStyles(theme => ({
     padding: "0.5rem 1rem",
   },
   name: {
-    color: "#fff",
+    color: "#222222",
   },
   reviewButton: {
     textTransform: "none",

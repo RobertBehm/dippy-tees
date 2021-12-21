@@ -41,7 +41,7 @@ const useStyles = makeStyles(theme => ({
     width: "20rem",
   },
   stock: {
-    color: "#fff",
+    color: "#222222",
   },
   sizesAndSwatches: {
     maxWidth: "13rem",

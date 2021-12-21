@@ -57,7 +57,7 @@ const useStyles = makeStyles(theme => ({
     },
   },
   drawer: {
-    backgroundColor: theme.palette.primary.main,
+    backgroundColor: theme.palette.primary.secondary,
   },
   listItemText: {
     color: "#fff",
