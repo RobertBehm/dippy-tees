@@ -1,6 +1,6 @@
 import { createTheme } from "@material-ui/core/styles"
 
-const lightGrey = "#efefef"
+const lightGrey = "#f7f8fa"
 const tan = "#FECEA8"
 const lightRed = "#FF847C"
 const red = "#E84A5F"
@@ -21,6 +21,7 @@ const theme = createTheme({
       lightRed,
       red,
       offBlack,
+      lightGrey,
     },
   },
   typography: {

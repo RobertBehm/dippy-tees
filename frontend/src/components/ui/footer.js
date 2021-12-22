@@ -11,7 +11,7 @@ import instagram from "../../images/instagram.svg"
 
 const useStyles = makeStyles(theme => ({
   footer: {
-    backgroundColor: theme.palette.primary.main,
+    backgroundColor: theme.palette.common.lightGrey,
     padding: "2rem",
   },
   link: {
