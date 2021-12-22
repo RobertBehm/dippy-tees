@@ -25,7 +25,7 @@ import menu from "../../images/menu.svg"
 
 const useStyles = makeStyles(theme => ({
   coloredIndicator: {
-    backgroundColor: "#000000",
+    backgroundColor: "#ffffff",
   },
   logo: {
     [theme.breakpoints.down("xs")]: {
@@ -174,7 +174,7 @@ export default function Header({ categories }) {
   ]
 
   return (
-    <AppBar color="transparent" elevation={0} position="static">
+    <AppBar color="#000000" elevation={0} position="static">
       <Toolbar disableGutters>
         <Button
           component={Link}
