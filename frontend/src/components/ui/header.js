@@ -25,7 +25,7 @@ import menu from "../../images/menu.svg"
 
 const useStyles = makeStyles(theme => ({
   coloredIndicator: {
-    backgroundColor: "#ffffff",
+    backgroundColor: "#000000",
   },
   logo: {
     [theme.breakpoints.down("xs")]: {
