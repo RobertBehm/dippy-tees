@@ -84,9 +84,7 @@ export default function Footer() {
                 classes={{ root: classes.linkColumn }}
               >
                 <Grid item>
-                  <Typography variant="h5" color="textPrimary">
-                    {category}
-                  </Typography>
+                  <Typography variant="h6">{category}</Typography>
                 </Grid>
                 {routes[category].map(route => (
                   <Grid item key={route.label}>

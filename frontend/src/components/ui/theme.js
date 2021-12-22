@@ -63,6 +63,13 @@ const theme = createTheme({
       fontStyle: "italic",
       color: black,
     },
+    h6: {
+      fontFamily: "Philosopher",
+      fontSize: "2rem",
+      fontWeight: 700,
+      fontStyle: "italic",
+      color: white,
+    },
     body1: {
       fontFamily: "Montserrat",
       fontSize: "1.5rem",
