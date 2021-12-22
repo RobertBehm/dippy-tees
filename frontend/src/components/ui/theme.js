@@ -7,6 +7,7 @@ const red = "#E84A5F"
 const offBlack = "#2A363B"
 const grey = "#747474"
 const black = "#000000"
+const white = "#ffffff"
 
 const theme = createTheme({
   palette: {
@@ -22,6 +23,10 @@ const theme = createTheme({
       red,
       offBlack,
       lightGrey,
+      white,
+    },
+    textPrimary: {
+      white,
     },
   },
   typography: {

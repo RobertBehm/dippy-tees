@@ -15,7 +15,7 @@ const useStyles = makeStyles(theme => ({
     padding: "2rem",
   },
   link: {
-    color: "#fffff",
+    color: "#ffffff",
     fontSize: "1.25rem",
   },
   linkColumn: {
@@ -84,7 +84,7 @@ export default function Footer() {
                 classes={{ root: classes.linkColumn }}
               >
                 <Grid item>
-                  <Typography variant="h5" color="#ffffff">
+                  <Typography variant="h5" color="textPrimary">
                     {category}
                   </Typography>
                 </Grid>
