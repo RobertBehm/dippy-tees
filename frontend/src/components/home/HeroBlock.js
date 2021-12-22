@@ -1,11 +1,9 @@
 import React from "react"
 import Grid from "@material-ui/core/Grid"
 import Typography from "@material-ui/core/Typography"
-import Lottie from "react-lottie"
+//import Lottie from "react-lottie"
 import { makeStyles } from "@material-ui/core/styles"
-import useMediaQuery from "@material-ui/core/useMediaQuery"
-
-import animationData from "../../images/data.json"
+//import useMediaQuery from "@material-ui/core/useMediaQuery"
 
 const useStyles = makeStyles(theme => ({
   textContainer: {
@@ -24,15 +22,9 @@ const useStyles = makeStyles(theme => ({
 export default function HeroBlock() {
   const classes = useStyles()
 
-  const matchesLG = useMediaQuery(theme => theme.breakpoints.down("lg"))
-  const matchesMD = useMediaQuery(theme => theme.breakpoints.down("md"))
-  const matchesXS = useMediaQuery(theme => theme.breakpoints.down("xs"))
-
-  const defaultOptions = {
-    loop: true,
-    autoplay: false,
-    animationData,
-  }
+  //const matchesLG = useMediaQuery(theme => theme.breakpoints.down("lg"))
+  //const matchesMD = useMediaQuery(theme => theme.breakpoints.down("md"))
+  //const matchesXS = useMediaQuery(theme => theme.breakpoints.down("xs"))
 
   return (
     <Grid container justify="space-around" alignItems="center">
@@ -44,9 +36,9 @@ export default function HeroBlock() {
               variant="h1"
               classes={{ root: classes.heading }}
             >
-              The Premier
+              A Custom
               <br />
-              Developer Clothing Line
+              Clothing Line
             </Typography>
           </Grid>
           <Grid item>
@@ -55,21 +47,6 @@ export default function HeroBlock() {
             </Typography>
           </Grid>
         </Grid>
-      </Grid>
-      <Grid item>
-        <Lottie
-          isStopped
-          options={defaultOptions}
-          width={
-            matchesXS
-              ? "20rem"
-              : matchesMD
-              ? "30rem"
-              : matchesLG
-              ? "40rem"
-              : "50rem"
-          }
-        />
       </Grid>
     </Grid>
   )
