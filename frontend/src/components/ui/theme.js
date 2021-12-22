@@ -6,7 +6,7 @@ const lightRed = "#FF847C"
 const red = "#E84A5F"
 const offBlack = "#2A363B"
 const grey = "#747474"
-const black = "#222222"
+const black = "#000000"
 
 const theme = createTheme({
   palette: {

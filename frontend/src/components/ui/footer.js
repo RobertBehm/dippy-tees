@@ -11,11 +11,11 @@ import instagram from "../../images/instagram.svg"
 
 const useStyles = makeStyles(theme => ({
   footer: {
-    backgroundColor: theme.palette.common.lightGrey,
+    backgroundColor: theme.palette.secondary.main,
     padding: "2rem",
   },
   link: {
-    color: "#222222",
+    color: "#fffff",
     fontSize: "1.25rem",
   },
   linkColumn: {
@@ -84,7 +84,9 @@ export default function Footer() {
                 classes={{ root: classes.linkColumn }}
               >
                 <Grid item>
-                  <Typography variant="h5">{category}</Typography>
+                  <Typography variant="h5" color="#ffffff">
+                    {category}
+                  </Typography>
                 </Grid>
                 {routes[category].map(route => (
                   <Grid item key={route.label}>
