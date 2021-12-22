@@ -12,7 +12,7 @@ import GridIcon from "../../images/Grid"
 
 const useStyles = makeStyles(theme => ({
   description: {
-    color: "#fff",
+    color: "#222222",
   },
   descriptionContainer: {
     backgroundColor: theme.palette.primary.main,
@@ -28,8 +28,8 @@ const useStyles = makeStyles(theme => ({
     },
   },
   mainContainer: {
-    padding: "3rem",
-    backgroundSize: "fill",
+    //padding: "3rem",
+    //backgroundSize: "fill",
     //backgroundPosition: "center",
     //backgroundRepeat: "repeat",
     //position: "relative",
