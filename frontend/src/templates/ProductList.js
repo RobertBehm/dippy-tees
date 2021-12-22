@@ -8,7 +8,7 @@ import { graphql } from "gatsby"
 
 import Layout from "../components/ui/layout"
 import SEO from "../components/ui/seo"
-import DynamicToolbar from "../components/product-list/DynamicToolbar"
+//import DynamicToolbar from "../components/product-list/DynamicToolbar"
 import ListOfProducts from "../components/product-list/ListOfProducts"
 import {
   alphabetic,
@@ -162,6 +162,7 @@ export default function ProductList({
       <SEO title={name} description={description} />
       <Grid container direction="column" alignItems="center">
         <div ref={scrollRef} />
+        {/*
         <DynamicToolbar
           filterOptions={filterOptions}
           setFilterOptions={setFilterOptions}
@@ -172,6 +173,7 @@ export default function ProductList({
           layout={layout}
           setLayout={setLayout}
         />
+        */}
         <ListOfProducts
           page={page}
           filterOptions={filterOptions}

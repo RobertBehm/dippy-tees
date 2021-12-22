@@ -14,14 +14,14 @@ import { getStockDisplay } from "../product-detail/ProductInfo"
 
 import { colorIndex } from "./ProductFrameGrid"
 
-import frame from "../../images/product-frame-list.svg"
+//import frame from "../../images/product-frame-list.svg"
 
 const useStyles = makeStyles(theme => ({
   frame: {
-    backgroundImage: `url(${frame})`,
-    backgroundPosition: "center",
-    backgroundSize: "cover",
-    backgroundRepeat: "no-repeat",
+    //backgroundImage: `url(${frame})`,
+    //backgroundPosition: "center",
+    //backgroundSize: "cover",
+    //backgroundRepeat: "no-repeat",
     height: "28rem",
   },
   info: {
