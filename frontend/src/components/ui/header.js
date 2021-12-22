@@ -25,7 +25,7 @@ import menu from "../../images/menu.svg"
 
 const useStyles = makeStyles(theme => ({
   coloredIndicator: {
-    backgroundColor: "#fff",
+    backgroundColor: "#000000",
   },
   logo: {
     [theme.breakpoints.down("xs")]: {
@@ -33,7 +33,7 @@ const useStyles = makeStyles(theme => ({
     },
   },
   logoText: {
-    color: theme.palette.common.offBlack,
+    color: theme.palette.common.white,
   },
   logoContainer: {
     [theme.breakpoints.down("md")]: {
@@ -43,6 +43,7 @@ const useStyles = makeStyles(theme => ({
   tab: {
     ...theme.typography.body1,
     fontWeight: 500,
+    color: "#fff",
   },
   tabs: {
     marginLeft: "auto",
