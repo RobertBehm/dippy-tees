@@ -6,8 +6,6 @@ import useMediaQuery from "@material-ui/core/useMediaQuery"
 import { makeStyles } from "@material-ui/core/styles"
 import { Link } from "gatsby"
 
-import cta from "../../images/cta.svg"
-
 const useStyles = makeStyles(theme => ({
   account: {
     color: "#fff",
@@ -59,9 +57,6 @@ export default function CallToAction() {
       classes={{ root: classes.container }}
       direction={matchesMD ? "column" : "row"}
     >
-      <Grid item>
-        <img src={cta} className={classes.icon} alt="quality committed" />
-      </Grid>
       <Grid item>
         <Grid container direction="column">
           <Grid item classes={{ root: classes.headingContainer }}>
