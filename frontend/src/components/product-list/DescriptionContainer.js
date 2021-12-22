@@ -1,21 +1,21 @@
-import React, { useState } from "react"
-import clsx from "clsx"
+import React from "react"
+//import clsx from "clsx"
 import Grid from "@material-ui/core/Grid"
 import Typography from "@material-ui/core/Typography"
-import ButtonGroup from "@material-ui/core/ButtonGroup"
-import Button from "@material-ui/core/Button"
+//import ButtonGroup from "@material-ui/core/ButtonGroup"
+//import Button from "@material-ui/core/Button"
 import useMediaQuery from "@material-ui/core/useMediaQuery"
 import { makeStyles } from "@material-ui/core/styles"
 
-import ListIcon from "../../images/List"
-import GridIcon from "../../images/Grid"
+//import ListIcon from "../../images/List"
+//import GridIcon from "../../images/Grid"
 
 const useStyles = makeStyles(theme => ({
   description: {
-    color: "#222222",
+    color: "#ffffff",
   },
   descriptionContainer: {
-    backgroundColor: theme.palette.primary.main,
+    backgroundColor: theme.palette.primary.secondary,
     height: "15rem",
     width: "60%",
     borderRadius: 25,
@@ -41,10 +41,10 @@ const useStyles = makeStyles(theme => ({
     border: `2px solid ${theme.palette.primary.main}`,
     borderRightColor: `${theme.palette.primary.main} !important`,
     borderRadius: 25,
-    backgroundColor: "#fff",
+    backgroundColor: "#000000",
     padding: "0.5rem 1.5rem",
     "&:hover": {
-      backgroundColor: "#fff",
+      backgroundColor: "#000000",
     },
   },
   selected: {
@@ -73,18 +73,17 @@ const useStyles = makeStyles(theme => ({
   },
 }))
 
-export default function DescriptionContainer({
-  name,
-  description,
-  layout,
-  setLayout,
-}) {
+export default function DescriptionContainer({ name, description }) {
   const classes = useStyles()
 
   const matchesMD = useMediaQuery(theme => theme.breakpoints.down("md"))
 
-  const changeLayout = option => {
+  {
+    /*const changeLayout = option => {
     setLayout(option)
+    // If you decide to keep the sorting feature, dont forget to add layout and setlayout to props and import useState
+  }
+*/
   }
 
   return (
@@ -108,7 +107,7 @@ export default function DescriptionContainer({
           {description}
         </Typography>
       </Grid>
-      <Grid item classes={{ root: classes.buttonGroup }}>
+      {/*<Grid item classes={{ root: classes.buttonGroup }}>
         <ButtonGroup>
           <Button
             onClick={() => changeLayout("list")}
@@ -131,7 +130,7 @@ export default function DescriptionContainer({
             <GridIcon color={layout === "grid" ? "#222222" : undefined} />
           </Button>
         </ButtonGroup>
-      </Grid>
+          </Grid> */}
     </Grid>
   )
 }

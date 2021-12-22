@@ -54,7 +54,7 @@ const theme = createTheme({
       fontStyle: "italic",
       fontWeight: 700,
       fontSize: "3rem",
-      color: black,
+      color: white,
     },
     h5: {
       fontFamily: "Philosopher",
