@@ -45,6 +45,9 @@ const useStyles = makeStyles(theme => ({
       width: "100%",
     },
   },
+  header: {
+    fontSize: "60px"
+  }
   /*blockContainer: {
     backgroundColor: theme.palette.common.black,
     height: "8rem",
@@ -316,7 +319,7 @@ const ContactPage = () => {
                 root: clsx(classes.titleContainer, classes.blockContainer),
               }}
             >
-              <Typography variant="h4">Contact Us</Typography>
+              <Typography variant="h4" classes={{root: classes.header }}>Contact Us</Typography>
             </Grid>
             <Grid item>
               <Grid container direction="column">
