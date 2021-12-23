@@ -46,8 +46,8 @@ const useStyles = makeStyles(theme => ({
     },
   },
   header: {
-    fontSize: "60px"
-  }
+    fontSize: "60px",
+  },
   /*blockContainer: {
     backgroundColor: theme.palette.common.black,
     height: "8rem",
@@ -63,9 +63,9 @@ const useStyles = makeStyles(theme => ({
     },
   }, */
   titleContainer: {
-    marginTop: "-4rem",
+    margin: "auto",
   },
-  buttonContainer: {
+  /*buttonContainer: {
     backgroundColor: theme.palette.secondary.main,
     marginBottom: "-4rem",
     textTransform: "none",
@@ -73,7 +73,7 @@ const useStyles = makeStyles(theme => ({
     "&:hover": {
       backgroundColor: theme.palette.secondary.main,
     },
-  },
+  }, */
   sendIcon: {
     marginLeft: "2rem",
   },
@@ -236,7 +236,7 @@ const ContactPage = () => {
       ),
     },
     {
-      label: "support@dippy.com.com",
+      label: "support@dippytees.com",
       icon: (
         <div className={classes.contactEmailIcon}>
           <Email color="#000000" />
@@ -319,7 +319,9 @@ const ContactPage = () => {
                 root: clsx(classes.titleContainer, classes.blockContainer),
               }}
             >
-              <Typography variant="h4" classes={{root: classes.header }}>Contact Us</Typography>
+              <Typography variant="h4" classes={{ root: classes.header }}>
+                Contact Us
+              </Typography>
             </Grid>
             <Grid item>
               <Grid container direction="column">
@@ -379,8 +381,33 @@ const ContactPage = () => {
                   )
                 })}
               </Grid>
+              <Button
+                item
+                type="submit"
+                onClick={handleSubmit}
+                component={Button}
+                disabled={disabled}
+                color="secondary"
+                classes={{
+                  root: clsx(classes.buttonContainer, classes.blockContainer, {
+                    [classes.buttonDisabled]: disabled,
+                  }),
+                }}
+              >
+                <Typography
+                  variant="h6"
+                  classes={{ root: classes.sendMessage }}
+                >
+                  send message
+                </Typography>
+                <img
+                  src={send}
+                  className={classes.sendIcon}
+                  alt="send message"
+                />
+              </Button>
             </Grid>
-            <Grid
+            <Button
               item
               type="submit"
               onClick={handleSubmit}
@@ -396,7 +423,7 @@ const ContactPage = () => {
                 send message
               </Typography>
               <img src={send} className={classes.sendIcon} alt="send message" />
-            </Grid>
+            </Button>
           </Grid>
         </Grid>
 
