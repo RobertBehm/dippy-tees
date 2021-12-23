@@ -45,7 +45,7 @@ const useStyles = makeStyles(theme => ({
       width: "100%",
     },
   },
-  blockContainer: {
+  /*blockContainer: {
     backgroundColor: theme.palette.common.black,
     height: "8rem",
     width: "40rem",
@@ -58,11 +58,12 @@ const useStyles = makeStyles(theme => ({
     [theme.breakpoints.down("xs")]: {
       width: "100%",
     },
-  },
+  }, */
   titleContainer: {
     marginTop: "-4rem",
   },
   buttonContainer: {
+    backgroundColor: theme.palette.secondary.main,
     marginBottom: "-4rem",
     textTransform: "none",
     borderRadius: 0,
