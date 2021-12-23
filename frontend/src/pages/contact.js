@@ -7,7 +7,7 @@ import Button from "@material-ui/core/Button"
 import useMediaQuery from "@material-ui/core/useMediaQuery"
 import clsx from "clsx"
 import { makeStyles, useTheme } from "@material-ui/core/styles"
-import { Link } from "gatsby"
+//import { Link } from "gatsby"
 
 import SEO from "../components/ui/seo"
 import { FeedbackContext } from "../contexts"

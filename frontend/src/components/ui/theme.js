@@ -50,11 +50,11 @@ const theme = createTheme({
       color: black,
     },
     h4: {
-      fontFamily: "Philosopher",
+      fontFamily: "Helvetica",
       fontStyle: "italic",
       fontWeight: 700,
       fontSize: "3rem",
-      color: white,
+      color: black,
     },
     h5: {
       fontFamily: "Philosopher",
