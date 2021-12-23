@@ -381,31 +381,33 @@ const ContactPage = () => {
                   )
                 })}
               </Grid>
-              <Button
-                item
-                type="submit"
-                onClick={handleSubmit}
-                component={Button}
-                disabled={disabled}
-                color="secondary"
-                /*classes={{
+              <Grid item>
+                <Button
+                  item
+                  type="submit"
+                  onClick={handleSubmit}
+                  component={Button}
+                  disabled={disabled}
+                  color="secondary"
+                  /*classes={{
                   root: clsx(classes.buttonContainer, classes.blockContainer, {
                     [classes.buttonDisabled]: disabled,
                   }),
                 }} */
-              >
-                <Typography
-                  variant="h6"
-                  classes={{ root: classes.sendMessage }}
                 >
-                  send message
-                </Typography>
-                <img
-                  src={send}
-                  className={classes.sendIcon}
-                  alt="send message"
-                />
-              </Button>
+                  <Typography
+                    variant="h6"
+                    classes={{ root: classes.sendMessage }}
+                  >
+                    send message
+                  </Typography>
+                  <img
+                    src={send}
+                    className={classes.sendIcon}
+                    alt="send message"
+                  />
+                </Button>
+              </Grid>
             </Grid>
           </Grid>
         </Grid>
