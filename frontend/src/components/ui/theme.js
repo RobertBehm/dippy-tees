@@ -86,7 +86,7 @@ const theme = createTheme({
       fontStyle: "regular",
       fontWeight: 700,
       fontSize: "3rem",
-      color: darkGrey,
+      color: lightGrey,
     },
   },
   overrides: {

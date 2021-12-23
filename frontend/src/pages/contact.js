@@ -93,8 +93,8 @@ const useStyles = makeStyles(theme => ({
     },
   },
   middleInfo: {
-    borderTop: "2px solid #fff",
-    borderBottom: "2px solid #fff",
+    borderTop: "2px solid #959595",
+    borderBottom: "2px solid #959595",
   },
   iconContainer: {
     borderRight: "2px solid #959595",
