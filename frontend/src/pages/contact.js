@@ -25,7 +25,7 @@ import validate from "../components/ui/validate"
 const useStyles = makeStyles(theme => ({
   mainContainer: {
     height: "45rem",
-    backgroundColor: theme.palette.primary.main,
+    //backgroundColor: theme.palette.primary.main,
     marginBottom: "10rem",
     [theme.breakpoints.down("md")]: {
       marginTop: "8rem",
@@ -67,7 +67,7 @@ const useStyles = makeStyles(theme => ({
     textTransform: "none",
     borderRadius: 0,
     "&:hover": {
-      backgroundColor: theme.palette.secondary.light,
+      backgroundColor: theme.palette.secondary.main,
     },
   },
   sendIcon: {
@@ -140,7 +140,7 @@ const useStyles = makeStyles(theme => ({
     border: `2px solid ${theme.palette.error.main}`,
   },
   buttonDisabled: {
-    backgroundColor: theme.palette.grey[500],
+    backgroundColor: theme.palette.secondary.main[500],
   },
   sendMessage: {
     [theme.breakpoints.down("xs")]: {
@@ -232,10 +232,10 @@ const ContactPage = () => {
       ),
     },
     {
-      label: "zachary@var-x.com",
+      label: "support@dippy.com.com",
       icon: (
         <div className={classes.contactEmailIcon}>
-          <Email color="#fff" />
+          <Email color="#000000" />
         </div>
       ),
     },
@@ -388,7 +388,7 @@ const ContactPage = () => {
                 }),
               }}
             >
-              <Typography variant="h4" classes={{ root: classes.sendMessage }}>
+              <Typography variant="h6" classes={{ root: classes.sendMessage }}>
                 send message
               </Typography>
               <img src={send} className={classes.sendIcon} alt="send message" />
