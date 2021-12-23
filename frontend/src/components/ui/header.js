@@ -50,15 +50,15 @@ const useStyles = makeStyles(theme => ({
     marginRight: "auto",
   },
   icon: {
-    height: "3rem",
-    width: "3rem",
+    height: "2rem",
+    width: "2rem",
     [theme.breakpoints.down("xs")]: {
-      height: "2rem",
-      width: "2rem",
+      height: "1rem",
+      width: "1rem",
     },
   },
   drawer: {
-    backgroundColor: theme.palette.primary.secondary,
+    backgroundColor: theme.palette.secondary.main,
   },
   listItemText: {
     color: "#fff",
@@ -181,7 +181,7 @@ export default function Header({ categories }) {
           to="/"
           classes={{ root: classes.logoContainer }}
         >
-          <Typography variant="h1" classes={{ root: classes.logo }}>
+          <Typography variant="h2" classes={{ root: classes.logo }}>
             <span className={classes.logoText}>DIPPY</span>
           </Typography>
         </Button>
