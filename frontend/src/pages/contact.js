@@ -65,7 +65,7 @@ const useStyles = makeStyles(theme => ({
   titleContainer: {
     margin: "auto",
   },
-  /*buttonContainer: {
+  buttonContainer: {
     backgroundColor: theme.palette.secondary.main,
     marginBottom: "-4rem",
     textTransform: "none",
@@ -73,7 +73,7 @@ const useStyles = makeStyles(theme => ({
     "&:hover": {
       backgroundColor: theme.palette.secondary.main,
     },
-  }, */
+  },
   sendIcon: {
     marginLeft: "2rem",
   },
@@ -291,40 +291,36 @@ const ContactPage = () => {
         title="Contact Us"
         description="Send us a message and learn more about the high quality clothing standards at Dippy."
       />
-      <Grid
-        container
-        justify="space-around"
-        alignItems="center"
-        classes={{ root: classes.mainContainer }}
-        direction={matchesMD ? "column" : "row"}
-      >
-        {/* Contact Form */}
+      <Grid container justify="center" alignItems="center">
+        <Grid item>
+          <Typography variant="h4" classes={{ root: classes.header }}>
+            CONTACT US
+          </Typography>
+        </Grid>
+        <Grid></Grid>
         <Grid
-          component="form"
-          name="contact"
-          method="POST"
-          data-netlify="true"
-          item
-          classes={{ root: classes.formWrapper }}
+          container
+          justify="space-around"
+          alignItems="center"
+          classes={{ root: classes.mainContainer }}
+          direction={matchesMD ? "column" : "row"}
         >
+          {/* Contact Form */}
           <Grid
-            container
-            classes={{ root: classes.formContainer }}
-            direction="column"
-            justify="space-between"
-            alignItems="center"
+            component="form"
+            name="contact"
+            method="POST"
+            data-netlify="true"
+            item
+            classes={{ root: classes.formWrapper }}
           >
             <Grid
-              item
-              classes={{
-                root: clsx(classes.titleContainer, classes.blockContainer),
-              }}
+              container
+              classes={{ root: classes.formContainer }}
+              direction="column"
+              justify="space-between"
+              alignItems="center"
             >
-              <Typography variant="h4" classes={{ root: classes.header }}>
-                CONTACT US
-              </Typography>
-            </Grid>
-            <Grid item>
               <Grid container direction="column">
                 {Object.keys(fields).map(field => {
                   const validateHelper = event => {
@@ -390,11 +386,15 @@ const ContactPage = () => {
                   component={Button}
                   disabled={disabled}
                   color="secondary"
-                  /*classes={{
-                  root: clsx(classes.buttonContainer, classes.blockContainer, {
-                    [classes.buttonDisabled]: disabled,
-                  }),
-                }} */
+                  classes={{
+                    root: clsx(
+                      classes.buttonContainer,
+                      classes.blockContainer,
+                      {
+                        [classes.buttonDisabled]: disabled,
+                      }
+                    ),
+                  }}
                 >
                   <Typography
                     variant="h6"
