@@ -46,7 +46,7 @@ const useStyles = makeStyles(theme => ({
     },
   },
   blockContainer: {
-    backgroundColor: theme.palette.secondary.main,
+    backgroundColor: theme.palette.common.white,
     height: "8rem",
     width: "40rem",
     display: "flex",
@@ -132,7 +132,7 @@ const useStyles = makeStyles(theme => ({
     height: 25.122,
   },
   multiline: {
-    border: "2px solid #fff",
+    border: "2px solid #959595",
     borderRadius: 10,
     padding: "1rem",
   },
@@ -150,7 +150,7 @@ const useStyles = makeStyles(theme => ({
   "@global": {
     ".MuiInput-underline:before, .MuiInput-underline:hover:not(.Mui-disabled):before":
       {
-        borderBottom: "2px solid #fff",
+        borderBottom: "2px solid #959595",
       },
     ".MuiInput-underline:after": {
       borderBottom: `2px solid ${theme.palette.secondary.main}`,
