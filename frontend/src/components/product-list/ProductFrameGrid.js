@@ -42,7 +42,7 @@ const useStyles = makeStyles(theme => ({
     },
   },
   title: {
-    backgroundColor: theme.palette.primary.main,
+    backgroundColor: theme.palette.secondary.main,
     height: "5rem",
     width: "25rem",
     display: "flex",
@@ -143,7 +143,7 @@ export default function ProductFrameGrid({
         </Grid>
         <Grid item classes={{ root: classes.title }}>
           {/*<Typography variant="h5">{productName}</Typography> */}
-          <Typography variant="h5">Quick View</Typography>
+          <Typography variant="h6">Quick View</Typography>
         </Grid>
       </Grid>
       <QuickView
