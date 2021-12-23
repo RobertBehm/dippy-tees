@@ -297,7 +297,7 @@ const ContactPage = () => {
             CONTACT US
           </Typography>
         </Grid>
-        <Grid></Grid>
+        </Grid>
         <Grid
           container
           justify="space-around"
