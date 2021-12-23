@@ -5,7 +5,7 @@ const tan = "#FECEA8"
 const lightRed = "#FF847C"
 const red = "#E84A5F"
 const offBlack = "#2A363B"
-const grey = "#747474"
+const grey = "#959595"
 const darkGrey = "#666666"
 const black = "#000000"
 const white = "#ffffff"
@@ -25,6 +25,7 @@ const theme = createTheme({
       offBlack,
       lightGrey,
       white,
+      grey,
     },
     textPrimary: {
       white,

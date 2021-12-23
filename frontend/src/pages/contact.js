@@ -80,6 +80,7 @@ const useStyles = makeStyles(theme => ({
   contactInfo: {
     fontSize: "1.5rem",
     marginLeft: "1rem",
+    color: "#959595",
   },
   contactIcon: {
     height: "3rem",
@@ -195,7 +196,7 @@ const ContactPage = () => {
       placeholder: "Email",
       adornment: (
         <div className={classes.emailAdornment}>
-          <Email color={theme.palette.secondary.main} />
+          <Email color={theme.palette.common.grey} />
         </div>
       ),
     },
@@ -204,7 +205,7 @@ const ContactPage = () => {
       placeholder: "Phone Number",
       adornment: (
         <div className={classes.phoneAdornment}>
-          <PhoneAdornment color={theme.palette.secondary.main} />
+          <PhoneAdornment color={theme.palette.common.grey} />
         </div>
       ),
     },
