@@ -320,7 +320,7 @@ const ContactPage = () => {
               }}
             >
               <Typography variant="h4" classes={{ root: classes.header }}>
-                Contact Us
+                CONTACT US
               </Typography>
             </Grid>
             <Grid item>
@@ -388,11 +388,11 @@ const ContactPage = () => {
                 component={Button}
                 disabled={disabled}
                 color="secondary"
-                classes={{
+                /*classes={{
                   root: clsx(classes.buttonContainer, classes.blockContainer, {
                     [classes.buttonDisabled]: disabled,
                   }),
-                }}
+                }} */
               >
                 <Typography
                   variant="h6"
@@ -407,23 +407,6 @@ const ContactPage = () => {
                 />
               </Button>
             </Grid>
-            <Button
-              item
-              type="submit"
-              onClick={handleSubmit}
-              component={Button}
-              disabled={disabled}
-              classes={{
-                root: clsx(classes.buttonContainer, classes.blockContainer, {
-                  [classes.buttonDisabled]: disabled,
-                }),
-              }}
-            >
-              <Typography variant="h6" classes={{ root: classes.sendMessage }}>
-                send message
-              </Typography>
-              <img src={send} className={classes.sendIcon} alt="send message" />
-            </Button>
           </Grid>
         </Grid>
 
