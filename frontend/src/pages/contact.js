@@ -46,7 +46,7 @@ const useStyles = makeStyles(theme => ({
     },
   },
   blockContainer: {
-    backgroundColor: theme.palette.common.white,
+    backgroundColor: theme.palette.common.black,
     height: "8rem",
     width: "40rem",
     display: "flex",
@@ -96,7 +96,7 @@ const useStyles = makeStyles(theme => ({
     borderBottom: "2px solid #fff",
   },
   iconContainer: {
-    borderRight: "2px solid #fff",
+    borderRight: "2px solid #959595",
     height: "7rem",
     width: "8rem",
     display: "flex",
