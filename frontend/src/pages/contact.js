@@ -418,7 +418,7 @@ const ContactPage = () => {
                 <Grid item>
                   <Typography
                     classes={{ root: classes.contactInfo }}
-                    variant="h2"
+                    variant="inherit"
                   >
                     {section.label}
                   </Typography>

@@ -6,6 +6,7 @@ const lightRed = "#FF847C"
 const red = "#E84A5F"
 const offBlack = "#2A363B"
 const grey = "#747474"
+const darkGrey = "#666666"
 const black = "#000000"
 const white = "#ffffff"
 
@@ -81,11 +82,11 @@ const theme = createTheme({
       color: black,
     },
     inherit: {
-      fontSize: "4.5rem",
-      fontFamily: "Philosopher",
-      fontStyle: "italic",
+      fontFamily: "Helvetica",
+      fontStyle: "regular",
       fontWeight: 700,
-      color: white,
+      fontSize: "3rem",
+      color: darkGrey,
     },
   },
   overrides: {
