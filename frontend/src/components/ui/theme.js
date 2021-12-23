@@ -80,16 +80,23 @@ const theme = createTheme({
       fontSize: "1.5rem",
       color: black,
     },
+    inherit: {
+      fontSize: "4.5rem",
+      fontFamily: "Philosopher",
+      fontStyle: "italic",
+      fontWeight: 700,
+      color: white,
+    },
   },
   overrides: {
     MuiChip: {
       root: {
-        backgroundColor: offBlack,
+        backgroundColor: black,
       },
       label: {
         fontFamily: "Montserrat",
         fontSize: "1.5rem",
-        color: black,
+        color: white,
         fontWeight: 400,
       },
     },
