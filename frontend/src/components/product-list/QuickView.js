@@ -15,14 +15,14 @@ import Swatches from "./Swatches"
 import QtyButton from "./QtyButton"
 import { getStockDisplay } from "../product-detail/ProductInfo"
 
-import frame from "../../images/selected-frame.svg"
+//import frame from "../../images/selected-frame.svg"
 import explore from "../../images/explore.svg"
 
 const useStyles = makeStyles(theme => ({
   selectedFrame: {
-    backgroundImage: `url(${frame})`,
-    backgroundPosition: "center",
-    backgroundRepeat: "no-repeat",
+    //backgroundImage: `url(${frame})`,
+    //backgroundPosition: "center",
+    //backgroundRepeat: "no-repeat",
     height: "60.4rem",
     width: "73.5rem",
     padding: "0 !important",

@@ -142,7 +142,8 @@ export default function ProductFrameGrid({
           />
         </Grid>
         <Grid item classes={{ root: classes.title }}>
-          <Typography variant="h5">{productName}</Typography>
+          {/*<Typography variant="h5">{productName}</Typography> */}
+          <Typography variant="h5">Quick View</Typography>
         </Grid>
       </Grid>
       <QuickView
