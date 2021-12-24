@@ -39,9 +39,9 @@ const theme = createTheme({
       color: black,
     },
     h2: {
-      fontFamily: "Arial",
+      fontFamily: "Anton",
       fontSize: "3rem",
-      fontWeight: 500,
+      fontWeight: 700,
       color: black,
     },
     h3: {
