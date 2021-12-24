@@ -26,7 +26,7 @@ const useStyles = makeStyles(theme => ({
   mainContainer: {
     height: "45rem",
     //backgroundColor: theme.palette.primary.main,
-    marginBottom: "10rem",
+    marginBottom: "2rem",
     [theme.breakpoints.down("md")]: {
       marginTop: "8rem",
       height: "90rem",
@@ -48,6 +48,7 @@ const useStyles = makeStyles(theme => ({
   header: {
     fontSize: "60px",
     letterSpacing: "-3px",
+    marginBottom: "2rem",
   },
   /*blockContainer: {
     backgroundColor: theme.palette.common.black,
