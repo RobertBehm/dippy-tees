@@ -36,6 +36,7 @@ const useStyles = makeStyles(theme => ({
     marginTop: "-15rem",
   },
   formContainer: {
+    marginBottom: "-3rem",
     height: "100%",
   },
   formWrapper: {
@@ -379,8 +380,6 @@ const ContactPage = () => {
                   </Grid>
                 )
               })}
-            </Grid>
-            <Grid item>
               <Button
                 item
                 type="submit"
@@ -406,6 +405,7 @@ const ContactPage = () => {
                   alt="send message"
                 />
               </Button>
+            </Grid>
             </Grid>
           </Grid>
         </Grid>
