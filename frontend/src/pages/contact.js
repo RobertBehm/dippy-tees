@@ -33,7 +33,7 @@ const useStyles = makeStyles(theme => ({
     },
   },
   contactContainer: {
-    marginTop: "-3rem",
+    marginTop: "-15rem",
   },
   formContainer: {
     height: "100%",
@@ -72,7 +72,6 @@ const useStyles = makeStyles(theme => ({
   },
   buttonContainer: {
     backgroundColor: theme.palette.secondary.main,
-    marginBottom: "-7rem",
     textTransform: "none",
     borderRadius: 0,
     "&:hover": {
