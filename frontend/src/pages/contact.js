@@ -32,6 +32,9 @@ const useStyles = makeStyles(theme => ({
       height: "90rem",
     },
   },
+  contactContainer: {
+    marginTop: "-3rem",
+  },
   formContainer: {
     height: "100%",
   },
@@ -69,7 +72,7 @@ const useStyles = makeStyles(theme => ({
   },
   buttonContainer: {
     backgroundColor: theme.palette.secondary.main,
-    marginBottom: "-4rem",
+    marginBottom: "-7rem",
     textTransform: "none",
     borderRadius: 0,
     "&:hover": {
@@ -409,7 +412,7 @@ const ContactPage = () => {
         </Grid>
 
         {/* Contact Info */}
-        <Grid item>
+        <Grid item classes={{ root: classes.contactContainer }}>
           <Grid
             container
             direction="column"

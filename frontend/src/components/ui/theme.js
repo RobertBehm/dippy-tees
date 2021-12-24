@@ -34,7 +34,7 @@ const theme = createTheme({
   typography: {
     h1: {
       fontSize: "4.5rem",
-      fontFamily: "Arial",
+      fontFamily: "Anton",
       fontWeight: 700,
       color: black,
     },
@@ -45,41 +45,41 @@ const theme = createTheme({
       color: black,
     },
     h3: {
-      fontFamily: "Arial",
+      fontFamily: "Anton",
       fontSize: "2rem",
       fontWeight: 300,
       color: black,
     },
     h4: {
-      fontFamily: "Arial",
+      fontFamily: "Anton",
       fontWeight: 700,
       fontSize: "3rem",
       color: black,
     },
     h5: {
-      fontFamily: "Arial",
+      fontFamily: "Anton",
       fontSize: "2rem",
       fontWeight: 700,
       color: black,
     },
     h6: {
-      fontFamily: "Arial",
+      fontFamily: "Anton",
       fontSize: "2rem",
       fontWeight: 700,
       color: white,
     },
     body1: {
-      fontFamily: "Arial",
+      fontFamily: "Anton",
       fontSize: "1.5rem",
       color: grey,
     },
     body2: {
-      fontFamily: "Arial",
+      fontFamily: "Anton",
       fontSize: "1.5rem",
       color: black,
     },
     inherit: {
-      fontFamily: "Arial",
+      fontFamily: "Anton",
       fontWeight: 700,
       fontSize: "3rem",
       color: lightGrey,
@@ -91,7 +91,7 @@ const theme = createTheme({
         backgroundColor: black,
       },
       label: {
-        fontFamily: "Arial",
+        fontFamily: "Anton",
         fontSize: "1.5rem",
         color: white,
         fontWeight: 400,
