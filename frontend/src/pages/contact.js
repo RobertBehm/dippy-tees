@@ -47,6 +47,7 @@ const useStyles = makeStyles(theme => ({
   },
   header: {
     fontSize: "60px",
+    letterSpacing: "-3px",
   },
   /*blockContainer: {
     backgroundColor: theme.palette.common.black,
