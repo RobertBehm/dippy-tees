@@ -73,6 +73,7 @@ const useStyles = makeStyles(theme => ({
   },
   buttonContainer: {
     backgroundColor: theme.palette.secondary.main,
+    marginTop: "1.5rem",
     textTransform: "none",
     borderRadius: 0,
     "&:hover": {
@@ -201,7 +202,7 @@ const ContactPage = () => {
       placeholder: "Email",
       adornment: (
         <div className={classes.emailAdornment}>
-          <Email color={theme.palette.common.grey} />
+          <Email color="#959595" />
         </div>
       ),
     },
@@ -210,7 +211,7 @@ const ContactPage = () => {
       placeholder: "Phone Number",
       adornment: (
         <div className={classes.phoneAdornment}>
-          <PhoneAdornment color={theme.palette.common.grey} />
+          <PhoneAdornment color="#959595" />
         </div>
       ),
     },
@@ -380,7 +381,7 @@ const ContactPage = () => {
                   </Grid>
                 )
               })}
-              <Grid item>
+              <Grid item justifyContent="center">
                 <Button
                   item
                   type="submit"

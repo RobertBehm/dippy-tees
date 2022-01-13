@@ -40,7 +40,7 @@ const useStyles = makeStyles(theme => ({
   },
   text: {
     fontSize: "1rem",
-    color: "#fff",
+    color: "#959595",
     [theme.breakpoints.down("xs")]: {
       fontSize: "0.85rem",
     },
@@ -169,7 +169,7 @@ export default function Confirmation({
       value: detailValues.name,
       adornment: (
         <div className={classes.nameWrapper}>
-          <NameAdornment color="#fff" />
+          <NameAdornment color="#959595" />
         </div>
       ),
     },
@@ -185,7 +185,7 @@ export default function Confirmation({
       value: detailValues.phone,
       adornment: (
         <div className={classes.phoneWrapper}>
-          <PhoneAdornment />
+          <PhoneAdornment color="#959595" />
         </div>
       ),
     },
