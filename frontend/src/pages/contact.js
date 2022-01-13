@@ -75,6 +75,9 @@ const useStyles = makeStyles(theme => ({
     backgroundColor: theme.palette.secondary.main,
     marginTop: "1.5rem",
     textTransform: "none",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
     borderRadius: 0,
     "&:hover": {
       backgroundColor: theme.palette.secondary.main,
@@ -229,16 +232,16 @@ const ContactPage = () => {
     {
       label: (
         <span>
-          1234 S Example St {matchesXS ? <br /> : null}Wichita, KS 67111
+          1 Johnson Ct {matchesXS ? <br /> : null}West Warwick, RI 02893
         </span>
       ),
       icon: <img className={classes.contactIcon} src={address} alt="address" />,
     },
     {
-      label: "(555) 555-5555",
+      label: "(774) 991-1390",
       icon: (
         <div className={classes.contactIcon}>
-          <PhoneAdornment />
+          <PhoneAdornment color="#959595" />
         </div>
       ),
     },
@@ -246,7 +249,7 @@ const ContactPage = () => {
       label: "support@dippytees.com",
       icon: (
         <div className={classes.contactEmailIcon}>
-          <Email color="#000000" />
+          <Email color="#959595" />
         </div>
       ),
     },
@@ -381,7 +384,7 @@ const ContactPage = () => {
                   </Grid>
                 )
               })}
-              <Grid item justifyContent="center">
+              <Grid item>
                 <Button
                   item
                   type="submit"

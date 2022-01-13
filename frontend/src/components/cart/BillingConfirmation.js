@@ -10,6 +10,7 @@ const useStyles = makeStyles(theme => ({
   },
   values: {
     fontSize: "1.25rem",
+    color: "959595",
   },
   wrapper: {
     margin: "1rem 2rem",
