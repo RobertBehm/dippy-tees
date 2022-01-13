@@ -177,7 +177,7 @@ export default function Confirmation({
       value: detailValues.email,
       adornment: (
         <div className={classes.emailWrapper}>
-          <EmailAdornment color="#fff" />
+          <EmailAdornment color="#959595" />
         </div>
       ),
     },

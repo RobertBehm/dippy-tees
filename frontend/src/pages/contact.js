@@ -36,7 +36,7 @@ const useStyles = makeStyles(theme => ({
     marginTop: "-15rem",
   },
   formContainer: {
-    marginBottom: "-3rem",
+    marginBottom: "-7rem",
     height: "100%",
   },
   formWrapper: {
