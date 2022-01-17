@@ -22,6 +22,7 @@ const useStyles = makeStyles(theme => ({
     },
   },
   label: {
+    color: "#fff",
     fontSize: "1.5rem",
     [theme.breakpoints.down("xs")]: {
       fontSize: "0.9rem",

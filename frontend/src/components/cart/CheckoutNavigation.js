@@ -24,12 +24,14 @@ const useStyles = makeStyles(theme => ({
     },
   },
   back: {
+    color: "#fff",
     visibility: ({ steps, selectedStep }) =>
       selectedStep === 0 || selectedStep === steps.length - 1
         ? "hidden"
         : "visible",
   },
   forward: {
+    color: "#fff",
     visibility: ({ steps, selectedStep }) =>
       selectedStep >= steps.length - 2 ? "hidden" : "visible",
   },
@@ -62,7 +64,7 @@ const useStyles = makeStyles(theme => ({
     right: 0,
   },
   text: {
-    color: "fff",
+    color: "#fff",
     [theme.breakpoints.down("xs")]: {
       fontSize: "1.25rem",
     },
