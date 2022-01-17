@@ -30,10 +30,6 @@ const useStyles = makeStyles(theme => ({
     width: "100%",
     minHeight: "30rem",
     height: "auto",
-    backgroundImage: `url(${background})`,
-    backgroundSize: "fill",
-    backgroundPosition: "center",
-    backgroundRepeat: "repeat",
     borderTop: ({ showComponent }) =>
       `${showComponent ? 0 : 0.5}rem solid ${theme.palette.primary.main}`,
     borderBottom: ({ showComponent }) =>

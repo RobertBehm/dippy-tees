@@ -5,8 +5,6 @@ import Typography from "@material-ui/core/Typography"
 import Button from "@material-ui/core/Button"
 import { makeStyles } from "@material-ui/core/styles"
 
-import shippingIcon from "../../images/shipping.svg"
-
 const useStyles = makeStyles(theme => ({
   button: {
     backgroundColor: theme.palette.secondary.main,
@@ -72,9 +70,6 @@ export default function Shipping({
       justify="center"
       classes={{ root: classes.container }}
     >
-      <Grid item>
-        <img src={shippingIcon} alt="shipping" className={classes.icon} />
-      </Grid>
       <Grid item container justify="space-around">
         {shippingOptions.map(option => (
           <Grid item key={option.label}>

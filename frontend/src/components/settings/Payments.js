@@ -16,11 +16,9 @@ import Slots from "./Slots"
 import { FeedbackContext, UserContext } from "../../contexts"
 import { setSnackbar, setUser } from "../../contexts/actions"
 
-import cardIcon from "../../images/card.svg"
-
 const useStyles = makeStyles(theme => ({
   number: {
-    color: "#fff",
+    color: "#000000",
     marginBottom: "5rem",
     [theme.breakpoints.down("xs")]: {
       marginBottom: ({ checkout }) => (checkout ? "1rem" : undefined),
@@ -249,9 +247,6 @@ export default function Payments({
       justify="center"
       classes={{ root: classes.paymentContainer }}
     >
-      <Grid item>
-        <img src={cardIcon} alt="payment settings" className={classes.icon} />
-      </Grid>
       <Grid
         item
         container
