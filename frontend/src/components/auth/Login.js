@@ -70,7 +70,7 @@ export const EmailPassword = (
     hidden: hideEmail,
     startAdornment: (
       <span style={{ height: 17, width: 22, marginBottom: 10 }}>
-        <EmailAdornment color={isWhite ? "#fff" : null} />
+        <EmailAdornment color="#000000" />
       </span>
     ),
   },

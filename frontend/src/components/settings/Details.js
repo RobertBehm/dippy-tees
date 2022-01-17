@@ -1,8 +1,6 @@
 import React, { useState, useEffect, useRef } from "react"
 import clsx from "clsx"
 import Grid from "@material-ui/core/Grid"
-import Typography from "@material-ui/core/Typography"
-import Button from "@material-ui/core/Button"
 import FormControlLabel from "@material-ui/core/FormControlLabel"
 import Switch from "@material-ui/core/Switch"
 import useMediaQuery from "@material-ui/core/useMediaQuery"
