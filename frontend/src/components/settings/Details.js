@@ -12,7 +12,6 @@ import Fields from "../auth/Fields"
 import Slots from "./Slots"
 import { EmailPassword } from "../auth/Login"
 
-import fingerprint from "../../images/fingerprint.svg"
 import NameAdornment from "../../images/NameAdornment"
 import PhoneAdornment from "../../images/PhoneAdornment"
 
@@ -72,16 +71,17 @@ const useStyles = makeStyles(theme => ({
     marginRight: 4,
   },
   switchLabel: {
-    color: "#fff",
+    color: "#000000",
     fontWeight: 600,
     [theme.breakpoints.down("xs")]: {
       fontSize: "1rem",
     },
   },
   "@global": {
-    ".MuiInput-underline:before, .MuiInput-underline:hover:not(.Mui-disabled):before": {
-      borderBottom: "2px solid #fff",
-    },
+    ".MuiInput-underline:before, .MuiInput-underline:hover:not(.Mui-disabled):before":
+      {
+        borderBottom: `2px solid ${theme.palette.secondary.main}`,
+      },
     ".MuiInput-underline:after": {
       borderBottom: `2px solid ${theme.palette.secondary.main}`,
     },
@@ -156,7 +156,7 @@ export default function Details({
     name: {
       helperText: "you must enter a name",
       placeholder: "Name",
-      startAdornment: <NameAdornment color="#fff" />,
+      startAdornment: <NameAdornment color="#000000" />,
     },
     phone: {
       helperText: "invalid phone number",
@@ -200,13 +200,6 @@ export default function Details({
       justify="center"
       classes={{ root: classes.detailsContainer }}
     >
-      <Grid item>
-        <img
-          src={fingerprint}
-          alt="details settings"
-          className={classes.icon}
-        />
-      </Grid>
       {fields.map((pair, i) => (
         <Grid
           container

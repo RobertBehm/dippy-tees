@@ -7,11 +7,9 @@ const useStyles = makeStyles(theme => ({
   heading: {
     color: theme.palette.secondary.main,
     fontSize: "1.5rem",
-    color: "959595",
   },
   values: {
     fontSize: "1.25rem",
-    color: "959595",
   },
   wrapper: {
     margin: "1rem 2rem",
