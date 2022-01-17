@@ -1,6 +1,5 @@
 import React from "react"
 import Grid from "@material-ui/core/Grid"
-import Typography from "@material-ui/core/Typography"
 import TextField from "@material-ui/core/TextField"
 import InputAdornment from "@material-ui/core/InputAdornment"
 import { makeStyles } from "@material-ui/core/styles"
@@ -19,7 +18,8 @@ const useStyles = makeStyles(theme => ({
     },
   },
   input: {
-    color: ({ isWhite }) => (isWhite ? "#fff" : theme.palette.secondary.main),
+    //color: ({ isWhite }) => (isWhite ? "#fff" : theme.palette.secondary.main),
+    color: "#000000",
     fontSize: ({ xs }) => (xs ? "1.25rem" : undefined),
   },
 }))
