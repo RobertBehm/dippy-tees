@@ -211,10 +211,10 @@ export default function Payments({
             base: {
               fontSize: "20px",
               fontFamily: "Montserrat",
-              color: "#fff",
-              iconColor: "#fff",
+              color: "#000000",
+              iconColor: "#000000",
               "::placeholder": {
-                color: "#fff",
+                color: "#222222",
               },
             },
           },
