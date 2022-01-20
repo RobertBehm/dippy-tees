@@ -485,7 +485,10 @@ export default function Confirmation({
           </Grid>
         </Grid>
       ))}
-      <Grid item classes={{ root: classes.buttonWrapper }}>
+      <Grid
+        item
+        classes={{ root: classes.buttonWrapper, disabled: classes.disabled }}
+      >
         <Button
           classes={{ root: classes.button }}
           onClick={handleOrder}
