@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useContext, useRef } from "react"
 import axios from "axios"
 import Grid from "@material-ui/core/Grid"
-import Typography from "@material-ui/core/Typography"
 import CircularProgress from "@material-ui/core/CircularProgress"
 import Chip from "@material-ui/core/Chip"
 import FormControlLabel from "@material-ui/core/FormControlLabel"
@@ -14,7 +13,6 @@ import Slots from "./Slots"
 import { FeedbackContext } from "../../contexts"
 import { setSnackbar } from "../../contexts/actions"
 
-import locationIcon from "../../images/location.svg"
 import streetAdornment from "../../images/street-adornment.svg"
 import zipAdornment from "../../images/zip-adornment.svg"
 
@@ -185,13 +183,6 @@ export default function Location({
       justify="center"
       classes={{ root: classes.locationContainer }}
     >
-      <Grid item>
-        <img
-          src={locationIcon}
-          alt="location settings"
-          className={classes.icon}
-        />
-      </Grid>
       <Grid
         item
         container

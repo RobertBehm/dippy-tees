@@ -51,7 +51,7 @@ const useStyles = makeStyles(theme => ({
   },
   paymentContainer: {
     height: "100%",
-    borderLeft: ({ checkout }) => (checkout ? 0 : "4px solid #fff"),
+    borderLeft: ({ checkout }) => (checkout ? 0 : "4px solid #000000"),
     display: ({ checkout, selectedStep, stepNumber }) =>
       checkout && selectedStep !== stepNumber ? "none" : "flex",
     position: "relative",
@@ -68,7 +68,7 @@ const useStyles = makeStyles(theme => ({
     marginRight: 4,
   },
   switchLabel: {
-    color: "#fff",
+    color: "#000000",
     fontWeight: 600,
     [theme.breakpoints.down("xs")]: {
       fontSize: "1.25rem",
@@ -76,7 +76,7 @@ const useStyles = makeStyles(theme => ({
   },
   form: {
     width: "75%",
-    borderBottom: "2px solid #fff",
+    borderBottom: "2px solid #000000",
     height: "2rem",
     marginTop: "-1rem",
     [theme.breakpoints.down("xs")]: {
