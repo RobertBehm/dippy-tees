@@ -487,7 +487,7 @@ export default function Confirmation({
       ))}
       <Grid item classes={{ root: classes.buttonWrapper }}>
         <Button
-          classes={{ root: classes.button, disabled: classes.disabled }}
+          classes={{ root: classes.button }}
           onClick={handleOrder}
           disabled={cart.length === 0 || loading || !clientSecret}
         >
