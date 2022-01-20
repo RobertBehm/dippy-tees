@@ -3,7 +3,6 @@ import axios from "axios"
 import Grid from "@material-ui/core/Grid"
 import Chip from "@material-ui/core/Chip"
 import IconButton from "@material-ui/core/IconButton"
-import Typography from "@material-ui/core/Typography"
 import { makeStyles } from "@material-ui/core/styles"
 
 import OrderDetails from "./OrderDetails"

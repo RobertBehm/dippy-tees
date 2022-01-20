@@ -20,7 +20,6 @@ import settingsIcon from "../../images/settings.svg"
 import orderHistoryIcon from "../../images/order-history.svg"
 import favoritesIcon from "../../images/favorite.svg"
 import subscriptionIcon from "../../images/subscription.svg"
-import background from "../../images/repeating-smallest.svg"
 
 const useStyles = makeStyles(theme => ({
   name: {
