@@ -26,12 +26,12 @@ const useStyles = makeStyles(theme => ({
     },
   },
   removeCard: {
-    backgroundColor: "#fff",
+    backgroundColor: "#000000",
     paddingLeft: 5,
     paddingRight: 5,
     marginLeft: "2rem",
     "&:hover": {
-      backgroundColor: "#fff",
+      backgroundColor: "#000000",
     },
     [theme.breakpoints.down("xs")]: {
       marginLeft: ({ checkout }) => (checkout ? 0 : undefined),

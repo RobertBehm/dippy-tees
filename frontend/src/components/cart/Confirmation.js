@@ -439,9 +439,6 @@ export default function Confirmation({
             </Grid>
           ))}
         </Grid>
-        <Grid item xs={5} classes={{ root: classes.iconWrapper }}>
-          <img src={confirmationIcon} alt="confirmation" />
-        </Grid>
       </Grid>
       {secondFields.map((field, i) => (
         <Grid
